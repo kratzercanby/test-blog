@@ -1,0 +1,107 @@
+body {
+	margin: 0;
+}
+
+header {
+	background: #999;
+	color: white;
+	padding: 15px 15px 0 15px;
+}
+
+header h1 {
+	margin: 0;
+	display: inline;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0 0 0 15px;
+	display: inline;
+}
+
+
+
+.rows:after {
+	clear: both;
+	content: "";
+	display: table;
+}
+
+.cols {
+	background: #777;
+	border-radius: 5px;
+	padding: .5%;
+	float: left;
+	margin: .5%%;
+	width: 31%;
+}
+
+footer {
+}
+
+.myPanel {
+	border: 1px solid #487537;
+	border-radius: 5px;
+	box-shadow: 1px 1px 3px #ccc;
+	margin: 3%;
+}
+
+.myPanel .heading {
+	background: #BCFFA3;
+	border-radius: 5px 5px 0 0;
+	color: #487537;
+	padding: 10px 20px;
+}
+
+.myPanel .body {
+	padding: 10px 20px;
+}
+
+.myPanel .showOnHover {
+	display: none;
+}
+
+.myPanel:hover {
+	box-shadow: 1px 1px 8px #999;
+	border: 2px solid #487537;
+}
+
+.myPanel:hover .showOnHover {
+	display: inline-block;
+}
+
+.tab-panels .tabs {
+	margin: 10px 0 0 0;
+}
+
+.tab-panels .tabs li{
+	background: #BBAEF5;
+	border-radius: 5px 5px 0 0;
+	display: inline-block;
+	margin: 0;
+	padding: 2px;
+}
+
+.tab-panels .tabs li:hover{
+	background: #534885;
+	color:white;
+}
+
+.tab-panels .tabs .active {
+	background: #534885;
+	color:white;
+}
+
+.tab-panels .panel {
+	background: #DBDAE0;
+	display: none;
+	padding: 10px;
+	margin: 0;
+}
+
+.tab-panels .panel.active {
+	border-radius: 0 0 5px 5px;
+	display: block;
+}
+
+
